@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Blue from './LandingPage/Blue';
+import End from './LandingPage/End';
+import F2 from './LandingPage/F2';
+import Features from './LandingPage/Features';
+import Hero from './LandingPage/Hero';
+import Meet from './LandingPage/Meet';
+import Nav from './LandingPage/Nav';
+import Paraz from './LandingPage/Paraz';
+import Twobg from './LandingPage/Twobg';
+import Small from './LandingPage/Small';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   
+<Nav />
+{/* <Small /> */}
+<Hero />
+<Meet />
+<Features />
+<F2 />
+<Blue />
+<Twobg />
+<Paraz />
+<End />
     </div>
   );
 }
